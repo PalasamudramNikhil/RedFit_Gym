@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedFit Gym - Transform Your Body & Mind | Premium Fitness Center</title>
+    <meta name="description" content="Join RedFit Gym - the ultimate fitness destination with state-of-the-art equipment, expert trainers, and innovative programs. Start your transformation today with our red & white themed modern gym experience." />
+    <meta name="keywords" content="gym, fitness, personal training, workout, strength training, cardio, group classes, membership, RedFit" />
+    <meta name="author" content="RedFit Gym" />
+    <link rel="canonical" href="/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="RedFit Gym - Transform Your Body & Mind | Premium Fitness Center" />
+    <meta property="og:description" content="State-of-the-art fitness center with expert trainers, innovative programs, and a community that pushes you beyond your limits." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RedFit Gym - Transform Your Body & Mind" />
+    <meta name="twitter:description" content="State-of-the-art fitness center with expert trainers and innovative programs." />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthClub",
+      "name": "RedFit Gym",
+      "description": "Premium fitness center with state-of-the-art equipment and expert trainers",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Fitness Street",
+        "addressLocality": "Wellness City",
+        "addressRegion": "WC",
+        "postalCode": "12345"
+      },
+      "telephone": "+1-555-123-4567",
+      "email": "info@redwhitegym.com",
+      "openingHours": [
+        "Mo-Fr 05:00-23:00",
+        "Sa-Su 06:00-22:00"
+      ],
+      "priceRange": "$29-$99"
+    }
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <link rel="stylesheet" href="gym-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navigation" class="nav-container">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="dumbbell"></i>
+                    </div>
+                    <span class="logo-text">
+                        RED<span class="logo-accent">FIT</span>
+                    </span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links desktop-nav">
+                    <button class="nav-link" data-scroll="home">Home</button>
+                    <button class="nav-link" data-scroll="services">Services</button>
+                    <button class="nav-link" data-scroll="trainers">Trainers</button>
+                    <button class="nav-link" data-scroll="membership">Membership</button>
+                    <button class="nav-link" data-scroll="contact">Contact</button>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="nav-cta desktop-nav">
+                    <button class="btn btn-primary">Join Now</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn mobile-nav">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon hidden"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden">
+                <div class="mobile-menu-content">
+                    <button class="mobile-nav-link" data-scroll="home">Home</button>
+                    <button class="mobile-nav-link" data-scroll="services">Services</button>
+                    <button class="mobile-nav-link" data-scroll="trainers">Trainers</button>
+                    <button class="mobile-nav-link" data-scroll="membership">Membership</button>
+                    <button class="mobile-nav-link" data-scroll="contact">Contact</button>
+                    <button class="btn btn-primary btn-full">Join Now</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <img src="gym.png" alt="Modern gym interior" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="container">
+                    <div class="hero-text animate-slide-up">
+                        <h1 class="hero-title">
+                            Transform Your
+                            <span class="hero-title-gradient">BODY & MIND</span>
+                        </h1>
+                        
+                        <p class="hero-description">
+                            Join the ultimate fitness revolution. State-of-the-art equipment, expert trainers, 
+                            and a community that pushes you beyond your limits.
+                        </p>
+                        
+                        <div class="hero-buttons">
+                            <button class="btn btn-hero">
+                                Start Your Journey
+                                <i data-lucide="arrow-right" class="btn-icon"></i>
+                            </button>
+                            
+                            <button class="btn btn-outline-white">
+                                <i data-lucide="play-circle" class="btn-icon-left"></i>
+                                Watch Our Story
+                            </button>
+                        </div>
+                        
+                        <!-- Stats -->
+                        <div class="hero-stats">
+                            <div class="stat animate-float">
+                                <div class="stat-icon">
+                                    <i data-lucide="users"></i>
+                                </div>
+                                <div class="stat-number">2K+</div>
+                                <div class="stat-label">Members</div>
+                            </div>
+                            
+                            <div class="stat animate-float" style="animation-delay: 0.5s">
+                                <div class="stat-icon">
+                                    <i data-lucide="zap"></i>
+                                </div>
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Programs</div>
+                            </div>
+                            
+                            <div class="stat animate-float" style="animation-delay: 1s">
+                                <div class="stat-icon">
+                                    <div class="rating-icon">5★</div>
+                                </div>
+                                <div class="stat-number">4.9</div>
+                                <div class="stat-label">Rating</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Our <span class="text-primary">Services</span>
+                    </h2>
+                    <p class="section-description">
+                        Comprehensive fitness solutions designed to help you achieve your goals, 
+                        no matter your current fitness level.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="dumbbell"></i>
+                            </div>
+                            <h3 class="service-title">Strength Training</h3>
+                        </div>
+                        <p class="service-description">
+                            Build muscle and increase power with our state-of-the-art weight training equipment and personalized programs.
+                        </p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>Free Weights</li>
+                            <li><div class="feature-dot"></div>Machines</li>
+                            <li><div class="feature-dot"></div>Personal Training</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Learn More</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="heart"></i>
+                            </div>
+                            <h3 class="service-title">Cardio Fitness</h3>
+                        </div>
+                        <p class="service-description">
+                            Boost your cardiovascular health with our variety of cardio equipment and high-energy classes.
+                        </p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>Treadmills</li>
+                            <li><div class="feature-dot"></div>Bikes</li>
+                            <li><div class="feature-dot"></div>Rowing Machines</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Learn More</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <h3 class="service-title">Group Classes</h3>
+                        </div>
+                        <p class="service-description">
+                            Join our motivating group fitness classes led by certified instructors in a fun, energetic environment.
+                        </p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>HIIT</li>
+                            <li><div class="feature-dot"></div>Yoga</li>
+                            <li><div class="feature-dot"></div>Spin Classes</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Learn More</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="target"></i>
+                            </div>
+                            <h3 class="service-title">Personal Training</h3>
+                        </div>
+                        <p class="service-description">
+                            Get one-on-one attention with our expert trainers to reach your specific fitness goals faster.
+                        </p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>Custom Plans</li>
+                            <li><div class="feature-dot"></div>Nutrition Guidance</li>
+                            <li><div class="feature-dot"></div>Progress Tracking</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Learn More</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="zap"></i>
+                            </div>
+                            <h3 class="service-title">Functional Training</h3>
+                        </div>
+                        <p class="service-description">
+                            Improve your daily movement patterns with functional exercises that enhance real-world performance.
+                        </p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>TRX</li>
+                            <li><div class="feature-dot"></div>Kettlebells</li>
+                            <li><div class="feature-dot"></div>Battle Ropes</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Learn More</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="trophy"></i>
+                            </div>
+                            <h3 class="service-title">Competition Prep</h3>
+                        </div>
+                        <p class="service-description">
+                            Prepare for bodybuilding, powerlifting, or athletic competitions with specialized training programs.
+                        </p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>Contest Prep</li>
+                            <li><div class="feature-dot"></div>Posing</li>
+                            <li><div class="feature-dot"></div>Peak Performance</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <button class="btn btn-cta">Explore All Programs</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trainers Section -->
+        <section id="trainers" class="trainers">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Meet Our <span class="text-primary">Expert Trainers</span>
+                    </h2>
+                    <p class="section-description">
+                        Our certified professionals are here to guide you on your fitness journey 
+                        with personalized training and unwavering support.
+                    </p>
+                </div>
+
+                <div class="trainers-grid">
+                    <div class="trainer-card">
+                        <div class="trainer-image">
+                            <img src="weight_lifting.png" alt="Sarah Johnson">
+                            <div class="trainer-overlay"></div>
+                            <div class="trainer-info">
+                                <h3 class="trainer-name">Sarah Johnson</h3>
+                                <p class="trainer-specialty">Strength & Conditioning</p>
+                            </div>
+                        </div>
+                        <div class="trainer-content">
+                            <div class="trainer-rating">
+                                <div class="rating">
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <div class="experience-badge">8 years</div>
+                            </div>
+                            <p class="trainer-bio">
+                                Former Olympic weightlifter turned personal trainer, specializing in strength building and athletic performance.
+                            </p>
+                            <div class="trainer-details">
+                                <div class="detail">
+                                    <i data-lucide="award"></i>
+                                    <span>NASM-CPT, CSCS</span>
+                                </div>
+                                <div class="detail">
+                                    <i data-lucide="users"></i>
+                                    <span>150+ clients trained</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline btn-full">Book Session</button>
+                        </div>
+                    </div>
+
+                    <div class="trainer-card">
+                        <div class="trainer-image">
+                            <img src="pullup.png" alt="Mike Rodriguez">
+                            <div class="trainer-overlay"></div>
+                            <div class="trainer-info">
+                                <h3 class="trainer-name">Mike Rodriguez</h3>
+                                <p class="trainer-specialty">HIIT & Cardio</p>
+                            </div>
+                        </div>
+                        <div class="trainer-content">
+                            <div class="trainer-rating">
+                                <div class="rating">
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <div class="experience-badge">6 years</div>
+                            </div>
+                            <p class="trainer-bio">
+                                High-energy trainer who brings intensity and motivation to every workout session.
+                            </p>
+                            <div class="trainer-details">
+                                <div class="detail">
+                                    <i data-lucide="award"></i>
+                                    <span>ACE-CPT, HIIT Specialist</span>
+                                </div>
+                                <div class="detail">
+                                    <i data-lucide="users"></i>
+                                    <span>120+ clients trained</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline btn-full">Book Session</button>
+                        </div>
+                    </div>
+
+                    <div class="trainer-card">
+                        <div class="trainer-image">
+                            <img src="yoga.png" alt="Emma Chen">
+                            <div class="trainer-overlay"></div>
+                            <div class="trainer-info">
+                                <h3 class="trainer-name">Emma Chen</h3>
+                                <p class="trainer-specialty">Yoga & Flexibility</p>
+                            </div>
+                        </div>
+                        <div class="trainer-content">
+                            <div class="trainer-rating">
+                                <div class="rating">
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <div class="experience-badge">10 years</div>
+                            </div>
+                            <p class="trainer-bio">
+                                Mind-body wellness expert focused on flexibility, balance, and mental well-being.
+                            </p>
+                            <div class="trainer-details">
+                                <div class="detail">
+                                    <i data-lucide="award"></i>
+                                    <span>RYT-500, Mobility Specialist</span>
+                                </div>
+                                <div class="detail">
+                                    <i data-lucide="users"></i>
+                                    <span>200+ clients trained</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline btn-full">Book Session</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <button class="btn btn-hero">View All Trainers</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership Section -->
+        <section id="membership" class="membership">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Choose Your <span class="text-primary">Membership</span>
+                    </h2>
+                    <p class="section-description">
+                        Flexible membership options designed to fit your lifestyle and fitness goals. 
+                        Start your transformation today.
+                    </p>
+                </div>
+
+                <div class="membership-grid">
+                    <div class="membership-card">
+                        <div class="membership-header">
+                            <div class="membership-icon">
+                                <i data-lucide="zap"></i>
+                            </div>
+                            <h3 class="membership-name">Basic</h3>
+                            <p class="membership-description">Perfect for getting started with your fitness journey</p>
+                            <div class="membership-price">
+                                <span class="price">$29</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <div class="membership-features">
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Access to gym floor</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Basic equipment usage</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Locker room access</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Free fitness assessment</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Mobile app access</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline btn-full">Choose Plan</button>
+                    </div>
+
+                    <div class="membership-card popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="membership-header">
+                            <div class="membership-icon">
+                                <i data-lucide="star"></i>
+                            </div>
+                            <h3 class="membership-name">Premium</h3>
+                            <p class="membership-description">Our most popular plan with everything you need</p>
+                            <div class="membership-price">
+                                <span class="price">$59</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <div class="membership-features">
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Everything in Basic</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Unlimited group classes</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Guest passes (2/month)</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Nutrition consultation</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Progress tracking</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Priority equipment booking</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-hero btn-full">Get Started</button>
+                    </div>
+
+                    <div class="membership-card">
+                        <div class="membership-header">
+                            <div class="membership-icon">
+                                <i data-lucide="crown"></i>
+                            </div>
+                            <h3 class="membership-name">Elite</h3>
+                            <p class="membership-description">Ultimate experience with personal training included</p>
+                            <div class="membership-price">
+                                <span class="price">$99</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <div class="membership-features">
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Everything in Premium</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>4 personal training sessions</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Meal planning service</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Recovery zone access</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>VIP locker</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>24/7 gym access</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check"></i>
+                                <span>Competition prep guidance</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline btn-full">Choose Plan</button>
+                    </div>
+                </div>
+
+                <div class="trial-section">
+                    <h3 class="trial-title">Not sure which plan is right for you?</h3>
+                    <p class="trial-description">
+                        Try us out with our 7-day free trial. No commitment, no hidden fees.
+                    </p>
+                    <button class="btn btn-cta">Start Free Trial</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Get In <span class="text-primary">Touch</span>
+                    </h2>
+                    <p class="section-description">
+                        Ready to start your fitness journey? Contact us today for a free consultation 
+                        and let's create your personalized fitness plan.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h3 class="form-title">Send us a message</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell us about your fitness goals..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-hero btn-full">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="contact-info-grid">
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h4>Visit Us</h4>
+                                    <p>123 Fitness Street</p>
+                                    <p>Wellness City, WC 12345</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i data-lucide="phone"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h4>Call Us</h4>
+                                    <p>+1 (555) 123-4567</p>
+                                    <p>+1 (555) 123-4568</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h4>Email Us</h4>
+                                    <p>info@redwhitegym.com</p>
+                                    <p>support@redwhitegym.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i data-lucide="clock"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h4>Hours</h4>
+                                    <p>Mon-Fri: 5:00 AM - 11:00 PM</p>
+                                    <p>Weekends: 6:00 AM - 10:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Media -->
+                        <div class="social-section">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <button class="social-btn">
+                                    <i data-lucide="instagram"></i>
+                                </button>
+                                <button class="social-btn">
+                                    <i data-lucide="facebook"></i>
+                                </button>
+                                <button class="social-btn">
+                                    <i data-lucide="twitter"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Map Placeholder -->
+                        <div class="map-section">
+                            <h4>Location</h4>
+                            <div class="map-placeholder">
+                                <div class="map-content">
+                                    <i data-lucide="map-pin"></i>
+                                    <p>Interactive Map</p>
+                                    <p class="map-address">123 Fitness Street, Wellness City</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Main Footer Content -->
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Brand Section -->
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <div class="footer-logo-icon">
+                                <i data-lucide="dumbbell"></i>
+                            </div>
+                            <span class="footer-logo-text">
+                                RED<span class="logo-accent">FIT</span>
+                            </span>
+                        </div>
+                        
+                        <p class="footer-description">
+                            Transform your body and mind at RedFit Gym. Join our community of fitness enthusiasts 
+                            and achieve your goals with state-of-the-art equipment and expert guidance.
+                        </p>
+
+                        <div class="footer-contact">
+                            <div class="footer-contact-item">
+                                <i data-lucide="map-pin"></i>
+                                <span>123 Fitness Street, Wellness City, WC 12345</span>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i data-lucide="phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i data-lucide="mail"></i>
+                                <span>info@redwhitegym.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Links -->
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><button data-scroll="home">About Us</button></li>
+                            <li><button data-scroll="services">Services</button></li>
+                            <li><button data-scroll="trainers">Trainers</button></li>
+                            <li><button data-scroll="membership">Membership</button></li>
+                            <li><button data-scroll="contact">Contact</button></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><button data-scroll="services">Personal Training</button></li>
+                            <li><button data-scroll="services">Group Classes</button></li>
+                            <li><button data-scroll="services">Nutrition Coaching</button></li>
+                            <li><button data-scroll="services">Competition Prep</button></li>
+                            <li><button data-scroll="services">Recovery Zone</button></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><button>Help Center</button></li>
+                            <li><button>Member Portal</button></li>
+                            <li><button>Class Schedule</button></li>
+                            <li><button>Privacy Policy</button></li>
+                            <li><button>Terms of Service</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Newsletter Section -->
+                <div class="newsletter-section">
+                    <div class="newsletter-content">
+                        <h3>Stay Updated</h3>
+                        <p>Get the latest fitness tips, workout routines, and gym updates.</p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" id="newsletterEmail">
+                            <button class="btn btn-hero">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">© 2024 RedFit Gym. All rights reserved.</p>
+                    
+                    <div class="footer-social">
+                        <button class="footer-social-btn">
+                            <i data-lucide="instagram"></i>
+                        </button>
+                        <button class="footer-social-btn">
+                            <i data-lucide="facebook"></i>
+                        </button>
+                        <button class="footer-social-btn">
+                            <i data-lucide="twitter"></i>
+                        </button>
+                        <button class="footer-social-btn">
+                            <i data-lucide="youtube"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <div class="toast-icon">
+                <i data-lucide="check-circle"></i>
+            </div>
+            <div class="toast-message">
+                <div class="toast-title">Success!</div>
+                <div class="toast-description">Message sent successfully!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="gym-script.js"></script>
+</body>
+</html>
